@@ -1,0 +1,183 @@
+\documentclass{resume}
+
+\begin{document}
+  % The following command is to avoid warnings.
+  \hypersetup{pageanchor=false}
+
+  \name{Mauricio Carrasco Ruiz}
+
+  \vspace{1em}
+
+  \contactPersonal%
+      {\faMapMarker \ CDMX, México}
+      {\faMobile \ XX XXXX XXXX}
+      {\faEnvelopeO \ maucarrui@gmail.com}
+
+  \vspace{1em}
+
+  \contactSocial%
+      {\faGithub
+       \ \href{https://github.com/maucarrui}{github.com/maucarrui}}
+      {\faLinkedinSquare
+       \ \href{https://linkedin.com/in/maucarrui}{linkedin.com/in/maucarrui}}
+
+  % Define two columns.
+  \columnratio{0.6}
+  \setlength{\columnsep}{2.5em}
+  \begin{paracol}{2}
+    
+    \section{Formación Académica}
+      
+      \datedsubsection%
+        {Licenciatura en Ciencias de la Computación}
+        {2017-2022}
+        
+        \noindent
+        Universidad Nacional Autónoma de México (UNAM), CDMX, México.
+
+        \vspace{0.5em}
+        
+        \noindent
+        Graduado con un promedio de 9.77 de 10. 
+        
+        \noindent
+        \tit{Pasante, en proceso de presentar mi examen profesional.}
+
+    \section{Experiencia}
+    
+      \subsection{\large{\tbf{Laboral}}}
+
+      \experience%
+          {Desarrollador Jr. Back-End}
+          {Escuela Nacional Preparatoria No. 6 ``Antonio Caso''}
+          {Marzo 2017 - Octubre 2017}
+          {
+            \begin{itemize}
+            \item 
+              Voluntarió para el desarrollo y mantenimiento de la aplicación web
+              encargada del manejo de horarios y administración de materias y
+              colegios de la escuela utilizando \tbf{PHP} y \tbf{JavaScript}.
+              
+            \item 
+              Uso de tecnologías y herramientas como \tbf{JQuery} y \tbf{MySQL}
+              para la administración de la base de datos.
+            \end{itemize}
+          }
+        
+      \experience%
+          {Desarrollador Jr. Full-Stack}
+          {Facultad de Ingeniería, UNAM}
+          {Junio 2016 - Noviembre 2016}
+          {
+            \begin{itemize}
+              \item
+                Desarrollo y mantenimiento de un sistema de administración para
+                la \tit{XXXVII Feria Internacional del Libro del Palacio de
+                  Mineria} usando el marco de trabajo \tbf{Laravel PHP}.
+                
+              \item Responsable tanto de las vistas que se le presentaban al
+                cliente como su correcto funcionamiento con la base de datos.
+            \end{itemize}
+          }
+
+      \subsection{\large{\tbf{Proyectos Académicos y de Investigación}}}
+
+      \project%
+          {Herramientas para el Manejo Computacional de Gráficas}
+          {Enero 2022 - Enero 2023}
+          {
+            \begin{itemize}
+              \item Implementación de algoritmos en \tbf{Java}, \tbf{Python}, y
+                \tbf{Go} para trabajar con Teoría de Gráficas.
+
+              \item Diseño de pruebas unitarias.
+                
+              \item Diseño e investigación de soluciones eficientes para
+                problemas como el isomorfimsmo de árboles y el ordenamiento
+                doblemente lexicográfico.
+            \end{itemize}
+          }
+          
+      \project%
+          {Heurísticas para Problemas No-Determinísticos}
+          {Diciembre 2020}
+          {
+            \begin{itemize}
+              \item 
+                Implementación de heurísticas como el recocido simulado
+                (\tit{simmulated annealing}), y las colonias de hormigas
+                (\tit{ant colony}) en \tbf{C++}.
+                
+              \item
+                Se encontraron buenas soluciones para instancias de los
+                problemas como El Problema del Agente Viajero (TSP), Problema
+                Generalizado de Asignaciones (GAP), y el Problema de la Cubierta
+                Mínima (MVC).
+            \end{itemize}
+          }
+
+    \switchcolumn
+      
+    \section{Habilidades}
+    
+      \subsection[Lenguajes de Programación]{\tbf{Lenguajes de Programación}}
+
+      \begin{tabular}{l l}
+        $\bullet$ \ \tbf{Java}       & $\bullet$ \ \tbf{C/C++} \\
+        $\bullet$ \ \tbf{Python}     & $\bullet$ \ \tbf{PHP}   \\
+        $\bullet$ \ \tbf{JavaScript} & $\bullet$ \ \tbf{Go}    \\
+      \end{tabular}
+      
+      \subsection{\tbf{Habilidades Personales}}
+
+      \begin{itemize}
+        \item Autodidacta.
+        \item Flexible.
+        \item Responsable.
+        \item Disciplinado.
+        \item Gestión de tiempo.
+      \end{itemize}
+
+      \subsection{\tbf{Habilidades Sociales}}
+      
+      \begin{itemize}
+        \item Buena comunicación.
+        \item Empático.
+        \item Resolución de problemas.
+        \item Trabajo en equipo.
+      \end{itemize}
+      
+      \subsection[Misceláneos]{\tbf{Misceláneos}}
+      
+      \begin{itemize}
+        \item Desarrollo de aplicaciones web.
+          
+          (\tbf{HTML}, \tbf{CSS}, \tbf{Node.js}).
+          
+        \item Administración de bases de datos.
+          
+          (\tbf{PostgreSQL}, \tbf{SQLite}, y \tbf{MySQL}).
+          
+        \item Marcos de trabajo.
+          
+          (\tbf{Django}, \tbf{Laravel PHP}, \tbf{Sails.js}).
+          
+        \item Control de versiones con \tbf{Git}
+          
+        \item Manejo de sistemas \tbf{Unix/Bash}.
+       
+        \item Más de 2 años de experiencia enseñando programación y matemáticas
+          a nivel licenciatura en la UNAM.
+
+      \end{itemize}
+      
+    \section{Idiomas}
+    
+      \begin{itemize}
+        \item Español (Lengua Nativa)
+        \item Inglés (C1)
+      \end{itemize}
+    
+  \end{paracol}
+
+\end{document}
